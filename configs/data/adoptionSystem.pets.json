@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "67aa3a1e4c38488ff604f344"
+  },
+  "name": "Polo",
+  "description": "Golden Retriver",
+  "age": 8,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67aa392d4c38488ff604f33c"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T17:40:46.451Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:40:46.451Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa3a514c38488ff604f348"
+  },
+  "name": "luka",
+  "description": "Gato Egipcio",
+  "age": 5,
+  "type": "GATO",
+  "keeper": {
+    "$oid": "67aa392d4c38488ff604f33c"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-10T17:41:37.447Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:43:16.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa3a744c38488ff604f34c"
+  },
+  "name": "princesa",
+  "description": "Lagarto de comodo",
+  "age": 8,
+  "type": "LAGARTO",
+  "keeper": {
+    "$oid": "67aa392d4c38488ff604f33c"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T17:42:12.104Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:42:12.104Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa3a804c38488ff604f350"
+  },
+  "name": "princesa",
+  "description": "Lagarto de comodo",
+  "age": 8,
+  "type": "LAGARTO",
+  "keeper": {
+    "$oid": "67aa392d4c38488ff604f33c"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T17:42:24.909Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:42:24.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa3aa14c38488ff604f354"
+  },
+  "name": "princesa",
+  "description": "Lagarto de comodo",
+  "age": 8,
+  "type": "LAGARTO",
+  "keeper": {
+    "$oid": "67aa392d4c38488ff604f33c"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T17:42:57.520Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:42:57.520Z"
+  }
+}]

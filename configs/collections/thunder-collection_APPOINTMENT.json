@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "APPOINTMENT",
+    "collectionId": "89c03d00-9370-42d9-bf1b-5b6543cbb8de",
+    "dateExported": "2025-02-17T14:43:02.339Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7eccc03f-0309-49f1-af73-dcaed3c9bfed",
+            "colId": "89c03d00-9370-42d9-bf1b-5b6543cbb8de",
+            "containerId": "",
+            "name": "AGREGAR-APPOINTMENTS",
+            "url": "http://localhost:3000/adoptionSystem/v1/appointments",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-17T14:30:53.577Z",
+            "modified": "2025-02-17T14:34:56.656Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzNDRjYjU4ZWU5ZGFjOGM2NmIyYWIiLCJpYXQiOjE3Mzk4MDE5MzAsImV4cCI6MTczOTgwNTUzMH0.BKDeyom08_ClYsvLRbPXn3J0IFQnb_2DnKt714JNpLg"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"date\":\"20-02-23\",\n  \"descripcion\": \"Gato Negro\",\n  \"sintomas\": \"No quiere comer\",\n  \"email\": \"gcontreras-2020247@kinal.edu.gt\"\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "203d4120-c12c-40f7-bb0c-4e42347ba027",
+            "colId": "89c03d00-9370-42d9-bf1b-5b6543cbb8de",
+            "containerId": "",
+            "name": "LISTAR-APPOINTMENTS",
+            "url": "http://localhost:3000/adoptionSystem/v1/appointments",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-17T14:35:35.576Z",
+            "modified": "2025-02-17T14:35:51.520Z",
+            "headers": []
+        },
+        {
+            "_id": "effc378e-e7cd-41b0-9bbe-1547eac57f09",
+            "colId": "89c03d00-9370-42d9-bf1b-5b6543cbb8de",
+            "containerId": "",
+            "name": "BUSCAR-APPOINTMENTS",
+            "url": "http://localhost:3000/adoptionSystem/v1/appointments/67b3491058ee9dac8c66b2c4",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-17T14:36:20.686Z",
+            "modified": "2025-02-17T14:37:21.222Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzNDRjYjU4ZWU5ZGFjOGM2NmIyYWIiLCJpYXQiOjE3Mzk4MDE5MzAsImV4cCI6MTczOTgwNTUzMH0.BKDeyom08_ClYsvLRbPXn3J0IFQnb_2DnKt714JNpLg"
+                }
+            ]
+        },
+        {
+            "_id": "8e4ae97e-db77-40fd-9408-9b53bc9725f8",
+            "colId": "89c03d00-9370-42d9-bf1b-5b6543cbb8de",
+            "containerId": "",
+            "name": "DELETE-APPONTMENTS",
+            "url": "http://localhost:3000/adoptionSystem/v1/appointments/67b3491058ee9dac8c66b2c4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-02-17T14:38:00.341Z",
+            "modified": "2025-02-17T14:38:28.382Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzNDRjYjU4ZWU5ZGFjOGM2NmIyYWIiLCJpYXQiOjE3Mzk4MDE5MzAsImV4cCI6MTczOTgwNTUzMH0.BKDeyom08_ClYsvLRbPXn3J0IFQnb_2DnKt714JNpLg"
+                }
+            ]
+        }
+    ],
+    "ref": "0GmClAv_WR6-aP7CmsGuEg23S0szyoxCgpYbqeBVYdtxjFrO1gQ4eBCcBCd0Mb5SMEPsVSnux0RuT2KL8EZc5A"
+}

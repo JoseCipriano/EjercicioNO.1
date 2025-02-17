@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "USERS",
+    "collectionId": "2d742a87-fbf1-4bb9-9bf6-f17236d0f5d5",
+    "dateExported": "2025-02-17T14:41:23.874Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "38af171e-3786-4819-83ec-11b91c9eb2f9",
+            "colId": "2d742a87-fbf1-4bb9-9bf6-f17236d0f5d5",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-17T14:13:46.909Z",
+            "modified": "2025-02-17T14:16:44.013Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Gerardo\",\n  \"surname\": \"Contreras\",\n  \"username\": \"gcontreras\",\n  \"email\": \"gcontreras-2020247@kinal.edu.gt\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \" \",\n  \"phone\": \"12345645\",\n  \"role\": \"ADMIN_ROLE\",\n  \"estado\": true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3c92d006-e725-4a6b-b09a-62aa6cdc5a73",
+            "colId": "2d742a87-fbf1-4bb9-9bf6-f17236d0f5d5",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:3000/adoptionSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-17T14:17:21.283Z",
+            "modified": "2025-02-17T14:18:50.142Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"gcontreras-2020247@kinal.edu.gt\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "rczjxUx_s494RyYktQjJHsAnWiMjc6bncWPG1iaaYRfHJpgxoRMZtytZw44a7r9KPv1Ym0UX_xnBF36UQ_Yfag"
+}
